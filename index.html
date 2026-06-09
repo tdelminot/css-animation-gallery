@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CSS Animation Gallery - Interactive Showcase">
+    <meta name="author" content="tdelminot">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🎨%3C/text%3E%3C/svg%3E">
+    <title> Animation Gallery - Interactive Showcase</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>🎨Css Animation Gallery</h1>
+        <p>Pure CSS animations using transform & opacity (GPU accelerated)</p>
+    </header>
+
+    <main class="gallery">
+        <!-- Card 1: Hover Lift -->
+        <div class="card card-lift">
+            <div class="card-icon">📦</div>
+            <h3>Hover Lift</h3>
+            <p>transform: translateY(-10px)</p>
+            <code>transition: 0.2s ease</code>
+        </div>
+
+        <!-- Card 2: Rotate on Hover -->
+        <div class="card card-rotate">
+            <div class="card-icon">🔄</div>
+            <h3>Rotate</h3>
+            <p>transform: rotate(5deg)</p>
+            <code>transition: 0.2s ease</code>
+        </div>
+
+        <!-- Card 3: Scale Pulse -->
+        <div class="card card-scale">
+            <div class="card-icon">📈</div>
+            <h3>Scale Pulse</h3>
+            <p>transform: scale(1.05)</p>
+            <code>transition: 0.2s ease</code>
+        </div>
+
+        <!-- Card 4: Fade In -->
+        <div class="card card-fade">
+            <div class="card-icon">🌊</div>
+            <h3>Fade In</h3>
+            <p>opacity: 0 → 1</p>
+            <code>animation: fadeIn 0.5s</code>
+        </div>
+
+        <!-- Card 5: Slide In -->
+        <div class="card card-slide">
+            <div class="card-icon">⬅️</div>
+            <h3>Slide In</h3>
+            <p>transform: translateX</p>
+            <code>animation: slideIn 0.4s</code>
+        </div>
+
+        <!-- Card 6: Bounce -->
+        <div class="card card-bounce">
+            <div class="card-icon">🏀</div>
+            <h3>Bounce</h3>
+            <p>transform: translateY</p>
+            <code>animation: bounce 0.5s</code>
+        </div>
+
+        <!-- Card 7: Spin -->
+        <div class="card card-spin">
+            <div class="card-icon">🌀</div>
+            <h3>Spin</h3>
+            <p>transform: rotate</p>
+            <code>animation: spin 1s</code>
+        </div>
+
+        <!-- Card 8: Glow -->
+        <div class="card card-glow">
+            <div class="card-icon">✨</div>
+            <h3>Glow Pulse</h3>
+            <p>opacity + box-shadow</p>
+            <code>animation: glow 1s infinite</code>
+        </div>
+
+        <!-- Card 9: Flip -->
+        <div class="card card-flip">
+            <div class="card-icon">🃏</div>
+            <h3>Flip X</h3>
+            <p>transform: scaleX(-1)</p>
+            <code>transition: 0.3s ease</code>
+        </div>
+
+        <!-- Card 10: Shake -->
+        <div class="card card-shake">
+            <div class="card-icon">📳</div>
+            <h3>Shake</h3>
+            <p>transform: translateX</p>
+            <code>animation: shake 0.3s</code>
+        </div>
+    </main>
+
+    <footer>
+        <p>All animations use transform & opacity - GPU accelerated, no reflows</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
